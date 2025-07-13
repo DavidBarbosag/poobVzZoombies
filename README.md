@@ -1,7 +1,8 @@
-Plants vs Zombies - Java Edition
+# Plants vs Zombies - Java Edition
+
 Este proyecto es una implementación orientada a objetos del clásico juego Plants vs Zombies, desarrollada en Java. La estructura del código divide claramente las responsabilidades entre ataques, entidades (plantas y zombis) y lógica del juego, lo que permite una simulación modular, extensible y fácilmente testeable.
 
-Contenido del Proyecto
+## Contenido del Proyecto
 PlantsVsZombies.java: Clase principal del juego, coordina la ejecución del programa y el flujo general.
 
 GameModes.java: Define los distintos modos de juego posibles.
@@ -16,7 +17,7 @@ AttackZombie.java: Representa los ataques realizados por los zombis.
 
 BrainsteinZombie.java: Subclase de zombi especial con habilidades avanzadas.
 
-Características principales
+## Características principales
 Diseño orientado a objetos: Uso de herencia y polimorfismo para modelar los ataques y comportamientos de los personajes.
 
 Modularidad: Separación clara entre la lógica de ataque, movimientos y modos de juego.
@@ -25,7 +26,7 @@ Extendibilidad: Fácil de ampliar con nuevos tipos de plantas, zombis o reglas d
 
 Modo consola: Pensado para ser ejecutado desde terminal, permitiendo un enfoque en la lógica de juego.
 
-Cómo ejecutar
+### Cómo ejecutar
 Asegúrate de tener Java instalado (versión 11 o superior).
 
 Compila los archivos:
@@ -36,24 +37,13 @@ Ejecuta el juego:
 
 java PlantsVsZombies
 
-Ejemplo de estructura de clases
-PlantsVsZombies.java
+## Diagrama de clases:
 
-GameModes.java
+<img width="1445" height="740" alt="image" src="https://github.com/user-attachments/assets/2dcbcb7c-dcc3-43d7-97fc-f9dd10424977" />
 
-GameMoves.java
 
-Attack.java
+## Posibles mejoras futuras
 
-AttackPlant.java
-
-AttackZombie.java
-
-Zombies
-
-BrainsteinZombie.java
-
-Posibles mejoras futuras
 Interfaz gráfica usando JavaFX o Swing
 
 Sistema de niveles y puntuación
@@ -62,10 +52,8 @@ Soporte para partidas guardadas
 
 IA básica para los zombis
 
-Autor
+## Autor
 David Alfonso Barbosa Gómez
-davidbarbosagomez@hotmail.com
-GitHub
-LinkedIn
+
 
 Este proyecto fue realizado como parte de una práctica académica en la Escuela Colombiana de Ingeniería Julio Garavito.
